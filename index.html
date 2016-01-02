@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>pttrn - Parallel lines</title>
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width">
+
+	<script src="node_modules/d3/d3.min.js"></script>
+	<script src="node_modules/dat-gui/dat.gui.min.js"></script>
+	<script src="node_modules/lodash/lodash.min.js"></script>
+	<script src="js/polyfill.watch.js"></script>
+</head>
+<body>
+
+	<div class="container">
+
+		<h1>pttrn</h1>
+
+		<p>
+			Series of experiments and studies on black and white vettorial pattern.<br>
+			The tecnique used is focused on using open-source standards and technologis with the javascript language
+			to create customizable optical illusion that can be used as a pattern.<br>
+			The project was inspired from the
+			<a href="http://buseca.github.io/patternbolt/">PatternBolt</a> open-source project.<br>
+			The project is done with the
+			<a href="https://it.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> standard with the popular
+			<a href="d3js.org/">d3.js</a> library.
+			Quotes and sentences are from <a href="https://en.wikipedia.org">Wikipedia</a>
+		</p>
+
+		<hr>
+
+		<p>
+			Experimental psychology refers to work done by those who apply experimental methods
+			to the study of behavior and the processes that underlie it.
+			Experimental psychologists employ human participants and animal subjects
+			to study a great many topics, including (among others) sensation and perception,
+			memory, cognition, learning, motivation, emotion; developmental processes,
+			social psychology, and the neural substrates of all of these.
+			<br><br>
+			Gestalt psychology tries to understand the laws of our ability
+			to acquire and maintain meaningful perceptions in an apparently chaotic world.
+			The central principle of gestalt psychology is that the mind forms a global whole
+			with self-organizing tendencies.
+			The original famous phrase of Gestalt psychologist Kurt Koffka,
+			"The whole is other than the sum of the parts".
+			<br><br>
+			Cognitive neuroscience is an academic field concerned with the scientific study
+			of biological substrates underlying cognition, with a specific focus
+			on the neural substrates of mental processes.
+			It addresses the questions of how psychological/cognitive functions are produced
+			by neural circuits in the brain. Cognitive neuroscience is a branch
+			of both psychology and neuroscience, overlapping with disciplines such as physiological psychology,
+			cognitive psychology, and neuropsychology.
+			Cognitive neuroscience relies upon theories in cognitive science coupled with evidence
+			from neuropsychology, and computational modeling.
+		</p>
+		<hr>
+
+		<div id="hook-parallel-lines" class="viewport"></div>
+		<div id="gui-parallel-lines" class="gui"></div>
+		<script src="js/parallel-lines.js"></script>
+
+		<p>
+			Parallel straight appear to be sloped.<br>
+			The illusion was ascribed largely to irradiation, the light spread from dark to bright zones
+			in the retinal image, and indeed the image disappears when black and white are replaced
+			by different colours of the same brightness (isoluminant).<br>
+			But a component of the illusion remains even when all optical and retinal components are factored out.<br>
+			Contrast polarities seem to be the determining factor in the tilt's direction.<br>
+		</p>
+
+		<hr>
+
+		<p>
+			Multistable perceptual phenomena are a form of perceptual phenomena
+			in which there are unpredictable sequences of spontaneous subjective changes.<br>
+			Perceptual multistability can be evoked by visual patterns that are too ambiguous
+			for the human visual system to recognise with one unique interpretation.
+		</p>
+		<div id="hook-outer-quad" class="viewport"></div>
+		<div id="gui-outer-quad" class="gui"></div>
+		<script src="js/outer-quad.js"></script>
+
+		<hr>
+
+		<p>
+			In 1965, between February 23 and April 25 an exhibition called The Responsive Eye,
+			created by William C. Seitz was held at the Museum of Modern Art in New York City.<br>
+			The exhibition focused on the perceptual aspects of art,
+			which result both from the illusion of movement and the interaction of color relationships.
+		</p>
+
+		<div id="hook-repeating-quad" class="viewport"></div>
+		<div id="gui-repeating-quad" class="gui"></div>
+		<script src="js/repeating-quad.js"></script>
+
+		<hr>
+
+	</div>
+
+</body>
+</html>

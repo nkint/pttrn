@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  font-family: Baskerville, "Times New Roman", serif;
+}
+
+.viewport {
+  float: left;
+}
+.gui {
+  float: right;
+}
+hr{
+  clear: both;
+}
+
+.container {
+  width: 70%;
+}
+
+h1{
+  text-align: center;
+
+}
